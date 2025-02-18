@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <link rel="shortcut icon" href="SX3C.png" type="image/x-icon" />
+    <title>SX3C-Login/Register</title>
+  </head>
+  <body>
+    <header></header>
+    <main id="login">
+      <div class="log-container">
+        <div class="info">
+          <img src="SX3C.png" alt="SX3C" id="logo_login" />
+          <div>
+            <h2>SX3C</h2>
+            <p>Code | Compute | Create</p>
+          </div>
+        </div>
+
+        <form id="signup">
+          <label for="email">Email</label> <br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder=" abc@gmail.com"
+          /><br />
+          <label for="names">Name</label><br />
+          <input
+            type="text"
+            id="names"
+            name="names"
+            required
+            placeholder=" XYZ"
+          /><br />
+          <label for="pw">Password</label><br />
+          <input type="password" id="pw" name="pw" required /><br />
+          <label for="cpw">Confirm Password</label><br />
+          <input type="password" id="cpw" name="cpw" required /><br />
+        </form>
+        <button id="signup-btn" class="btn-form">Sign Up</button>
+        <button id="login-btn" class="btn-form">Log in</button>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="login.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

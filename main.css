@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  header {
+    background-color: #002147;
+    color: #fff;
+    padding: 5px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  #stnav {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .info h2 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .info p {
+    margin: 0;
+    font-size: 12px;
+    color: #ccc;
+  }
+  
+  #tabs {
+    display: flex;
+    align-items: center;
+  }
+  
+  #home, #contact {
+    margin-left: 20px;
+  }
+  
+  #home h2, #contact h2 {
+    margin: 0;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: #fff;
+  }
+  
+  #home h2:hover, #contact h2:hover {
+    color: #1e90ff; 
+  }
+  
+  #log-ui {
+    display: flex;
+    align-items: center;
+  }
+  
+  #Setting {
+    margin-right: 20px;
+  }
+  
+  #Setting h2 {
+    margin: 0;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  #Setting h2:hover {
+    color: #fff;
+    background-color: #1e90ff;
+  }
+  
+  #user {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: transform 0.3s ease;
+  }
+
+  #personal-details{
+    margin-left: 10px;
+  }
+  
+  #user:hover {
+    transform: scale(1.1);
+  }
+  
+  #auth-buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+  }
+  
+  .btn-form {
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-form:hover {
+    background-color: #1c86ee;
+  }
+  
+  #hero {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  #hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+  }
+  
+  #hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  #hero-text h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: #002147;
+    margin: 0;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+  }
+  
+  #hero-text p {
+    font-size: 30px; 
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 20px;
+    color: #000; 
+    margin-top: 0px;
+    text-align: left;
+  }
+  
+  .content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eceff1;
+  }
+  
+  .about-heading {
+    font-size: 34px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #202020;
+  }
+  
+  .sub-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #032a57; 
+  }
+  
+  .sub-section {
+    margin-bottom: 40px;
+    max-width: 800px;
+    place-self: center;
+  }
+  
+  .sub-section p {
+    font-size: 17px;
+    color: #000; 
+    text-align: center;
+    font-weight: 100;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  header {
+    animation: fadeIn 0.3s ease-in-out;
+  }
